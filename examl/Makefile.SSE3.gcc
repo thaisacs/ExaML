@@ -15,7 +15,7 @@ LIBRARIES = -lm
 
 RM = rm -f
 
-objs    = axml.o optimizeModel.o trash.o searchAlgo.o topologies.o  treeIO.o models.o evaluatePartialGenericSpecial.o evaluateGenericSpecial.o newviewGenericSpecial.o makenewzGenericSpecial.o bipartitionList.o restartHashTable.o  byteFile.o partitionAssignment.o communication.o quartets.o
+objs    = axml.o optimizeModel.o trash.o searchAlgo.o topologies.o  treeIO.o models.o evaluatePartialGenericSpecial.o evaluateGenericSpecial.o newviewGenericSpecial.o makenewzGenericSpecial.o bipartitionList.o restartHashTable.o  byteFile.o partitionAssignment.o communication.o quartets.o ../../utils/kernel_stats.o
 
 all : clean examl
 
