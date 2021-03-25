@@ -1,0 +1,2 @@
+./parse-examl -m DNA -s ../testData/49 -q ../testData/49.model -n 49
+mpirun -np 2 ./examl/examl -t testData/49.tree -m GAMMA -n T2 -s parser/49.binary
