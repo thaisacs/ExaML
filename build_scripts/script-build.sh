@@ -1,5 +1,4 @@
-cd parser
+cd ../parser
 make -f Makefile.SSE3.gcc
-cd ..
-cd examl
+cd ../examl
 make -f Makefile.SSE3.gcc
